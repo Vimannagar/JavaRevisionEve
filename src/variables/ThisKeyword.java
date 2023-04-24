@@ -11,7 +11,7 @@ public class ThisKeyword {
 	
 	public void m1()
 	{
-	int i = 60;
+	int i = 10;
 	
 	System.out.println(this.i);
 	
