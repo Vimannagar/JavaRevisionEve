@@ -4,6 +4,7 @@ public class Child  extends Parent{
 	
 //	Here after writing extends keyword Child becomes subclass and Parent becomes super class
 	
+	int i = 20;
 
 	public void bike()
 	{
@@ -24,8 +25,15 @@ public class Child  extends Parent{
 		
 		c.property();
 		
+		System.out.println(c.i);//20
 		
+		Parent p = new Parent();
 		
+		System.out.println(p.i);//10
+		
+		System.out.println(c.j);//50
+		
+	
 		
 	}
 }

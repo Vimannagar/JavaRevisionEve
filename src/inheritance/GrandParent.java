@@ -2,6 +2,9 @@ package inheritance;
 
 public class GrandParent {
 
+	int j = 50;
+	
+	int i = 90;
 	
 	public void property()
 	{

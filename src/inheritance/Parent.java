@@ -2,6 +2,7 @@ package inheritance;
 
 public class Parent extends GrandParent  {
 	
+	int i = 10;
 	
 	public void home()
 	{
