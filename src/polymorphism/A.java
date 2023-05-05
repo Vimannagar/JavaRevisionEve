@@ -1,6 +1,6 @@
 package polymorphism;
 
-public class A {
+public  class A {
 	
 	public void m1()
 	{
