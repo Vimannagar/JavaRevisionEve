@@ -17,4 +17,17 @@ public  class A {
 		System.out.println("m3 method from A class");
 	}
 	
+	protected void m4()
+	{
+		System.out.println("public non static method from A class");
+	}
+	
+	
+	
+	public static void m5()
+	{
+		System.out.println(" static method m5 from A class");
+	}
+	
+	
 }

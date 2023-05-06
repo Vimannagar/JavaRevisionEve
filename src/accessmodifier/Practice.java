@@ -2,6 +2,11 @@ package accessmodifier;
 
  public class Practice {
 	
+	 public static int a = 50;
+	 
+	 static String s = "Pune";
+	 
+	 private static double d = 78.23;
 	
 	public void m1()
 	{
@@ -23,6 +28,8 @@ package accessmodifier;
 		Practice p = new Practice();
 		
 		p.m3();
+		
+		System.out.println(Practice.d);
 	}
 	
 }

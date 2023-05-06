@@ -18,7 +18,10 @@ public class OutsidePackage {
 		
 //		p.m3();// this is private method hence it cannot be accessible here
 		
+//		variable access test:
 		
+		System.out.println(Practice.a);//public variable so it is accessible through out the project
+//		System.out.println(Practice.s);//default variable so it can be accessible throughout the same package only
 		
 	}
 	
