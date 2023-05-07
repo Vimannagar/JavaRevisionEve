@@ -2,7 +2,7 @@ package encapsulation;
 
 public class Test {
 
-	
+	String username;
 	private	int customerbalance = 50;
 	
 	
@@ -19,4 +19,18 @@ public class Test {
 		}
 	}
 	
+	
+	public String getName()//Getter method
+	{
+		String name = "Ron";
+		
+		return name;
+	}
+	
+	
+	
+	public void setUsername(String uname)// Setter method
+	{
+		username= uname;
+	}
 }

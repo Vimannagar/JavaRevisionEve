@@ -1,7 +1,8 @@
 package polymorphism;
 
 public class B extends A {
-	
+	int y = 60;
+	int z = 20;
 	public void m1()
 	{
 		System.out.println("m1 method from B class");
@@ -35,6 +36,9 @@ public class B extends A {
 		
 		b.m5();// B class m5 method
 		
+		System.out.println(b.x);//50
+		
+		System.out.println(b.z);//20
 		A a =  new A();
 		
 		a.m1();// A class m1 method
@@ -43,7 +47,11 @@ public class B extends A {
 		
 		a.m5(); // A class m5 method
 		
-//		Parent_classname reference_variable = new ChildClassName();
+		System.out.println(a.x);//50
+		
+		System.out.println(a.z);//10
+
+		//		Parent_classname reference_variable = new ChildClassName();
 		
 		A aa = new B();
 		
@@ -53,7 +61,9 @@ public class B extends A {
 		
 		aa.m5(); // A class m5 method
 		
+		System.out.println(aa.x);//50
 		
+		System.out.println(aa.z);//10
 		
 	}
 }

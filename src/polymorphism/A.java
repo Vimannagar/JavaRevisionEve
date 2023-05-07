@@ -1,7 +1,9 @@
 package polymorphism;
 
 public  class A {
+	int x = 50;
 	
+	int z = 10;
 	public void m1()
 	{
 		System.out.println("m1 method from A class");
