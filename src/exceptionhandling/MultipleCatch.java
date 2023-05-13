@@ -16,15 +16,18 @@ public class MultipleCatch {
 		}
 		
 		
+		 
 		catch(NullPointerException e)
 		{
 			System.out.println("Null pointer Exception arrives inside the try block");
 		}
-		
 		catch(ArithmeticException m)
 		{
 			System.out.println("Arithmetic exception arrives ");
 		}
+		
+		
+		
 		
 		
 		System.out.println("After the catch block");
