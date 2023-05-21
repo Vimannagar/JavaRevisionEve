@@ -117,7 +117,22 @@ public class MethodsOfStringClass {
 	System.out.println(endswith);//false
 	
 	
+//	split: 
 	
+	String s20 = "Today is saturday";
+
+	String[] s21 = s20.split(" ");
+	
+	
+	
+	for(String s22:s21)
+	{
+		System.out.println(s22);
+	}
+	
+	
+	
+//	WAP to remove the un - ncessarily addred space from the Sting- "   this     is String"
 	
 	
 	}
