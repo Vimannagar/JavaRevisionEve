@@ -135,6 +135,35 @@ public class MethodsOfStringClass {
 //	WAP to remove the un - ncessarily addred space from the Sting- "   this     is String"
 	
 	
+	String s23 = "kjashdjsSDAnjnASDSA";
+	
+	
+	String s24 = s23.replaceAll("[A-Z]", "");
+	
+	System.out.println(s24);//kjashdjsnjn
+	
+	String s25 = s23.replaceAll("[a-z]", "");
+	System.out.println(s25);//SDAASDSA
+	
+	
+	String s26 = s23.replaceAll("[A-C]", "");
+	
+	System.out.println(s26);//kjashdjsSDnjnSDS
+	
+	String s27 = "AccEn%t7ure";
+	
+	String s28 = s27.replaceAll("[^A-Za-z]", "");
+	
+	System.out.println(s28);//AccEnture
+	
+	
+	
+//	WAP to remove the digits from the String
+	
+	
+	
+	
+	
 	}
 
 }
