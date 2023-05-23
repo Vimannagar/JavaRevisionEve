@@ -160,10 +160,51 @@ public class MethodsOfStringClass {
 	
 //	WAP to remove the digits from the String
 	
+	String s29 = s27.replaceAll("[0-9]", "");
+	
+	System.out.println(s29);
 	
 	
+	String s30 = s27.replaceAll("[^A-Za-z0-9]", "");
+	
+	System.out.println(s30);//AccEnt7ure
 	
 	
+	char [] chararray = s30.toCharArray();
+	
+	for(char ch :chararray)
+	{
+		System.out.println(ch);
+	}
+	
+//	Non primitive to primitive
+	
+	String s31 = "10";
+	
+	int s32 = Integer.parseInt(s31);//10
+	
+	System.out.println(s32);
+	
+	String s33 = "58.56";
+	
+	double s34 = Double.parseDouble(s33);
+	
+	System.out.println(s34);//58.56
+	
+	
+//	Primitive to non primitive:
+	
+	int s35 = 40;
+	
+	String s36 = String.valueOf(s35);
+	
+	System.out.println(s36+5);//405
+	
+	boolean s37 = true;
+	
+	String s38 = String.valueOf(s37);
+	
+	System.out.println(s38);//true
 	}
 
 }
